@@ -1,0 +1,61 @@
+.link{
+    position: relative;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: 800;
+    color: royalblue;
+    overflow: hidden;
+}
+
+.link{
+    background: linear-gradient(to right, midnightblue 50%, royalblue 50%);
+}
+
+.link{
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+}
+
+a{
+    transition: background-position 275ms ease;
+}
+
+a:hover{
+    background-position: 0 100%;
+}
+
+h1{
+    font-size: 1em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+/*information*/
+header .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid, .navbar-expand-lg>.container-lg, .navbar-expand-lg>.container-md, .navbar-expand-lg>.container-sm, .navbar-expand-lg>.container-xl {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    text-align: center;
+    justify-content: center;
+}
